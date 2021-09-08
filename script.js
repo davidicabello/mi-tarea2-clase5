@@ -10,6 +10,4 @@ document.querySelector('#boton-ingreso').onclick = function inputUserData() {
     $userDataInParagraph.innerText = `Tus datos son: ${$userName} ${$userMiddleName} ${$userLastName}, ${$userAge} años`;
     $welcomeMessage.innerText = `Bienvenido/a, ${$userName}`;
 
-    return false;
-
 }
